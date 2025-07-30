@@ -6,7 +6,7 @@
 int main ()
 {
     // Variable types
-    int a=12, x=5, y;
+    int a=12, x=5, y, numero;
     float b=4.5;
     char c='s';
 
@@ -22,9 +22,14 @@ int main ()
     //Incrementos
     y=x++; // Primeiro atribui e depois incrementa y=5 x=6
     printf("\n\nValor x= %d e o valor de y = %d\n",x,y);
-    
+
     y=++x; // Primeiro incrementa e depois atribui x=7 y=7
     printf("valor x = %d e o valor de y = %d",x,y);
+
+    //Ask for user input
+    printf("\n\nInsira um valor: ");
+    scanf("%d",&numero);
+    printf("\nO valor inserido foi: %d",numero);
 
      
     return 0;
