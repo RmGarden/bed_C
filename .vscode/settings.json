@@ -1,3 +1,4 @@
 {
-    "githubPullRequests.useReviewMode": "auto"
+    "githubPullRequests.useReviewMode": "auto",
+    "githubPullRequests.remotes": []
 }
