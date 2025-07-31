@@ -1,0 +1,1 @@
+SetConsoleOutputCP(CP_UTF8); // To correctly print 'á'
