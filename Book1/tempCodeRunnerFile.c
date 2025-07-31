@@ -1,1 +1,0 @@
-SetConsoleOutputCP(CP_UTF8);
