@@ -13,8 +13,6 @@
   Esquece os exercícios teóricos aborrecidos. Neste repositório, vais aprender a lógica de programação, estruturas de dados e gestão de memória criando <b>jogos interativos no terminal</b>!
 </p>
 
-[🎮 Explorar Módulos](#-módulos-do-curso) • [🛠️ Como Executar](#%EF%B8%8F-como-compilar-e-executar) • [🏆 Conquistas](#-conquistas)
-
 </div>
 
 ---
