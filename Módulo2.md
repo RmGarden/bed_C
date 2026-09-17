@@ -20,11 +20,11 @@ A instrução system("cls") ou system("clear") serve para "apagar" o texto do ec
 Para incluir as funções do sistema (system), precisas da biblioteca <stdlib.h>.
 
 ❓ Questões & Desafio Prático
-[ ] 1. Aumentar o Desafio: Consegues alterar as constantes LINHAS e COLUNAS para 10 e desenhar um mapa maior com mais caminhos?
+1. Aumentar o Desafio: Consegues alterar as constantes LINHAS e COLUNAS para 10 e desenhar um mapa maior com mais caminhos?
 
-[ ] 2. Mecânica de Pontuação: Consegues adicionar uma variável int passos = 0; que conta quantos movimentos o jogador fez até encontrar o tesouro?
+2. Mecânica de Pontuação: Consegues adicionar uma variável int passos = 0; que conta quantos movimentos o jogador fez até encontrar o tesouro?
 
-[ ] 3. Colisão com Paredes: Repara que neste código o jogador ignora as paredes internas (#). Consegues adicionar uma verificação para não permitir que o jogador ande para cima de um #?
+3. Colisão com Paredes: Repara que neste código o jogador ignora as paredes internas (#). Consegues adicionar uma verificação para não permitir que o jogador ande para cima de um #?
 
 [!IMPORTANT]
 Precisas de ajuda?
