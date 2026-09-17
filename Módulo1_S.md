@@ -1,4 +1,7 @@
-```#include <stdio.h>
+### 💻 Código Completo do Jogo
+
+```c
+#include <stdio.h>
 #include <locale.h>
 
 int main() {
@@ -21,4 +24,3 @@ int main() {
 
     return 0;
 }
-```
