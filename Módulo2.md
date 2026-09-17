@@ -26,7 +26,6 @@ Para incluir as funções do sistema (system), precisas da biblioteca <stdlib.h>
 
 3. Colisão com Paredes: Repara que neste código o jogador ignora as paredes internas (#). Consegues adicionar uma verificação para não permitir que o jogador ande para cima de um #?
 
-[!IMPORTANT]
-Precisas de ajuda?
-
-Se ficares preso a tentar adicionar as colisões de paredes ou a contagem de passos, abre uma Issue ou entra em contacto! 🚀
+> [!IMPORTANT]
+> **Precisas de ajuda?**  
+> Se ficares preso a tentar adicionar as colisões de paredes ou a contagem de passos, entra em contacto! 🚀
