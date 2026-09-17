@@ -1,3 +1,6 @@
+### 💻 Código Completo do Jogo
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -90,6 +93,7 @@ int main() {
             mapa[playerY][playerX] = '@';
         }
     }
+
 
     return 0;
 }
