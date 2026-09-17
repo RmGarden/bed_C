@@ -10,6 +10,7 @@
 > * **O Teu Papel:** És um detetive/hacker a operar um terminal de inspeção de memória.
 > * **A Tua Missão:** Usar o **ponteiro** (`ponteiro_scanner`) como uma "lupa" para inspecionar os endereços hexadecimais da RAM (`0x...`).
 > * **O Desafio Final:** Conseguir alterar o valor de uma variável ultra-secreta (**Tesouro Oculto**) modificando diretamente o seu endereço de memória, demonstrando na prática como os ponteiros funcionam "por baixo do capô" da linguagem C.
+
 ```text
  ┌─────────────────────────────────────────────────────────┐
  │               MEMÓRIA RAM (TERMINAL HACKER)             │
@@ -38,11 +39,11 @@ Operador & (E comercial): Significa "Dá-me o endereço de memória desta variá
 Operador * (Asterisco no ponteiro): Significa "Dá-me o valor que está guardado dentro do endereço para onde estou a apontar".
 
 ❓ Questões & Desafio Prático
-[ ] 1. Identificar Endereços: Executa o programa duas vezes seguidas. Os endereços de memória exibidos são exatamente os mesmos ou mudaram? Porquê?
+1. Identificar Endereços: Executa o programa duas vezes seguidas. Os endereços de memória exibidos são exatamente os mesmos ou mudaram? Porquê?
 
-[ ] 2. Hack da Memória: Usa a opção 4 para alterar o valor do tesouro_oculto para 9999 sem tocar diretamente na variável tesouro_oculto.
+2. Hack da Memória: Usa a opção 4 para alterar o valor do tesouro_oculto para 9999 sem tocar diretamente na variável tesouro_oculto.
 
-[ ] 3. Desafio do Troca-Valores (Swap): Cria uma função void trocar(int *a, int *b) que recebe dois ponteiros e troca os valores de duas variáveis entre si!
+3. Desafio do Troca-Valores (Swap): Cria uma função void trocar(int *a, int *b) que recebe dois ponteiros e troca os valores de duas variáveis entre si!
 
 [!IMPORTANT]
 Precisas de ajuda?
