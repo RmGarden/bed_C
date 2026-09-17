@@ -27,7 +27,7 @@ int main() {
         #endif
 
         printf("====================================================\n");
-        printf(" 🕵️ DETETIVE DA RAM: INSPECIONADOR DE PONTEIROS     \n");
+        printf(" 🕵️ DETETIVE DA RAM: INSPETOR DE PONTEIROS     \n");
         printf("====================================================\n");
         printf(" [1] Cofre A         | Valor: %d  | Endereço RAM: %p\n", cofre_A, (void*)&cofre_A);
         printf(" [2] Cofre B         | Valor: %d  | Endereço RAM: %p\n", cofre_B, (void*)&cofre_B);
@@ -64,7 +64,7 @@ int main() {
                 if (ponteiro_scanner == NULL) {
                     printf("\n❌ Erro! Não podes alterar a memória com um ponteiro NULO!\n");
                 } else {
-                    printf("\nIntroduce o novo valor para injetar diretamente na RAM: ");
+                    printf("\nInserir o novo valor para injetar diretamente na RAM: ");
                     scanf("%d", &novo_valor);
                     *ponteiro_scanner = novo_valor; // Altera o valor na memória real
                     printf("\n✨ Sucesso! Memória sobrescrita diretamente via ponteiro.\n");
