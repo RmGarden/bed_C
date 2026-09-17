@@ -20,7 +20,7 @@
  │ 0x7ffd...         | tesouro           | [ 100 ]         │
  │ 0x7ffe...         | *mapaDoTesouro    | [ 0x7ffd... ] ──┼──> Aponta para o tesouro
  └───────────────────┴───────────────────┴─────────────────┘
-
+```
 📌 Tópicos
 📍 Operador de Endereço (&): Descobrir em que "gaveta" da RAM está guardada uma variável.
 
@@ -32,11 +32,11 @@
 [!CAUTION]
 Ponteiros Nulos (NULL): Tentar aceder ao valor de um ponteiro que aponta para NULL (ex: *ponteiro_scanner quando este é nulo) provoca um erro chamado Segmentation Fault (Crashe do programa). Garante sempre que o ponteiro tem um endereço válido antes de usar o *!
 
-[!TIP]
-
-Operador & (E comercial): Significa "Dá-me o endereço de memória desta variável".
-
-Operador * (Asterisco no ponteiro): Significa "Dá-me o valor que está guardado dentro do endereço para onde estou a apontar".
+> [!TIP]
+>
+>Operador & (E comercial): Significa "Dá-me o endereço de memória desta variável".
+>
+>Operador * (Asterisco no ponteiro): Significa "Dá-me o valor que está guardado dentro do endereço para onde estou a apontar".
 
 ❓ Questões & Desafio Prático
 1. Identificar Endereços: Executa o programa duas vezes seguidas. Os endereços de memória exibidos são exatamente os mesmos ou mudaram? Porquê?
@@ -45,7 +45,6 @@ Operador * (Asterisco no ponteiro): Significa "Dá-me o valor que está guardado
 
 3. Desafio do Troca-Valores (Swap): Cria uma função void trocar(int *a, int *b) que recebe dois ponteiros e troca os valores de duas variáveis entre si!
 
-[!IMPORTANT]
-Precisas de ajuda?
-
-Se o conceito de ponteiros ainda parecer um bocado confuso, abre uma Issue no repositório com a tua dúvida! 🚀
+> [!IMPORTANT]
+> **Precisas de ajuda?**  
+> Se o conceito de ponteiros ainda parecer um bocado confuso, entra em contacto!
