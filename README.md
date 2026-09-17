@@ -7,7 +7,7 @@
 
 ![C Version](https://img.shields.io/badge/C-C99-blue.svg?style=for-the-badge&logo=c)
 ![Nível](https://img.shields.io/badge/N%C3%ADvel-Iniciante%20a%20Interm%C3%A9dio-green.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/Licen%C3%A7a-MIT-orange.svg?style=for-the-badge)
+
 
 <p align="center">
   Esquece os exercícios teóricos aborrecidos. Neste repositório, vais aprender a lógica de programação, estruturas de dados e gestão de memória criando <b>jogos interativos no terminal</b>!
