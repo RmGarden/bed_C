@@ -12,7 +12,7 @@ typedef struct {
     int energia;   // 100 = Cheio de energia | 0 = Exausto
 } Pet;
 
-// Função para alimentar o Pet (passagem por ponteiro para alterar o valor real)
+// Função para alimentar (passagem por ponteiro para alterar o valor real)
 void alimentar(Pet *p) {
     p->fome -= 30;
     if (p->fome < 0) p->fome = 0;
@@ -20,7 +20,7 @@ void alimentar(Pet *p) {
     printf("\n🍖 %s comeu! Fome reduzida.\n", p->nome);
 }
 
-// Função para brincar com o Pet
+// Função para brincar
 void brincar(Pet *p) {
     if (p->energia < 20) {
         printf("\n😴 %s está demasiado cansado para brincar!\n", p->nome);
@@ -57,7 +57,7 @@ int main() {
             system("clear");
         #endif
 
-        // Mostrar Estado do Pet
+        // Mostrar Estado
         printf("=======================================\n");
         printf(" 👾 TAMAGOTCHI EM C: %s\n", meuPet.nome);
         printf("=======================================\n");
@@ -79,7 +79,7 @@ int main() {
         printf("\nO que queres fazer?\n");
         printf("1. 🍖 Alimentar\n");
         printf("2. ⚽ Brincar\n");
-        printf("3. 💤 Por a Dormir\n");
+        printf("3. 💤 Dormir\n");
         printf("4. 🚪 Sair do Jogo\n");
         printf("Escolha: ");
         scanf("%d", &opcao);
