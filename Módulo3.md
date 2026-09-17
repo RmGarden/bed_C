@@ -27,11 +27,11 @@ O operador -> (Seta): Quando passas um ponteiro de uma struct para uma função 
 Passagem por Referência (&): Ao chamar alimentar(&meuPet);, estás a passar a morada da memória do teu pet. Sem o &, a função alteraria apenas uma cópia e o teu pet real continuaria com fome!
 
 ❓ Questões & Desafio Prático
-[ ] 1. Nome Personalizado: Consegues alterar o código no início do main() para permitir que o utilizador escolha o nome do seu bichinho com scanf?
+1. Nome Personalizado: Consegues alterar o código no início do main() para permitir que o utilizador escolha o nome do seu bichinho com scanf?
 
-[ ] 2. Novo Atributo: Adiciona uma nova variável int felicidade; dentro da struct Pet. Atualiza o menu para incluir uma opção de "Fazer Festas" que aumenta a felicidade!
+2. Novo Atributo: Adiciona uma nova variável int felicidade; dentro da struct Pet. Atualiza o menu para incluir uma opção de "Fazer Festas" que aumenta a felicidade!
 
-[ ] 3. Níveis de Alerta: Consegues adicionar um aviso no ecrã (ex: ⚠️ AVISO: O teu pet está com muita fome!) se a fome passar dos 70?
+3. Níveis de Alerta: Consegues adicionar um aviso no ecrã (ex: ⚠️ AVISO: O teu pet está com muita fome!) se a fome passar dos 70?
 
 [!IMPORTANT]
 Precisas de ajuda?
