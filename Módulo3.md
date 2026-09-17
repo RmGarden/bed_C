@@ -33,7 +33,6 @@ Passagem por Referência (&): Ao chamar alimentar(&meuPet);, estás a passar a m
 
 3. Níveis de Alerta: Consegues adicionar um aviso no ecrã (ex: ⚠️ AVISO: O teu pet está com muita fome!) se a fome passar dos 70?
 
-[!IMPORTANT]
-Precisas de ajuda?
-
-Se tiveres dúvidas sobre o operador -> ou como passar structs para funções, abre uma Issue no repositório! 🚀
+> [!IMPORTANT]
+> **Precisas de ajuda?**  
+> Se tiveres dúvidas sobre o operador -> ou como passar structs para funções, entra em contacto! 🚀
