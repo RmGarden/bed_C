@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > **Conceito:** Para entenderes como os computadores guardam dados e tomam decisões, nada melhor do que simular um terminal. 
-> Consegues criar um programa que gere um código secreto e dá pistas ao jogador com base nas suas tentativas?
+> Consegues criar um programa que gera um código secreto e dá pistas ao jogador com base nas suas tentativas?
 
 ---
 
