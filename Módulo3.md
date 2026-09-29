@@ -18,14 +18,13 @@
 * 🔀 **Menu Interativo:** Ciclo de decisões com `switch/case` ou `if/else`
 
 ---
-
+> [!NOTE]
 💡 Dicas Importantes
-[!TIP]
-
-O operador -> (Seta): Quando passas um ponteiro de uma struct para uma função (Pet *p), usas p->fome em vez de p.fome para aceder aos valores.
-
-Passagem por Referência (&): Ao chamar alimentar(&meuPet);, estás a passar a morada da memória do teu pet. Sem o &, a função alteraria apenas uma cópia e o teu pet real continuaria com fome!
-
+>
+> O operador -> (Seta): Quando passas um ponteiro de uma struct para uma função (Pet *p), usas p->fome em vez de p.fome para aceder aos valores.
+>
+> Passagem por Referência (&): Ao chamar alimentar(&meuPet);, estás a passar a morada da memória do teu pet. Sem o &, a função alteraria apenas uma > cópia e o teu pet real continuaria com fome!
+>
 ❓ Questões & Desafio Prático
 1. Nome Personalizado: Consegues alterar o código no início do main() para permitir que o utilizador escolha o nome do seu bichinho com scanf?
 
