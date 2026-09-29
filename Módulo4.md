@@ -2,14 +2,14 @@
 
 > [!NOTE]
 > **Conceito:** Os ponteiros costumam assustar quem está a começar em C, mas o conceito é simples: a memória RAM é como um grande prédio cheio de "gavetas" numeradas (endereços). Um ponteiro é apenas um papel onde apontas o número de uma dessas gavetas!
-> [!NOTE]
-> ### 🎯 Qual é o Objetivo Deste Jogo?
-> 
-> Neste jogo, não jogas com personagens nem te moves num mapa visual: **o teu campo de jogo é a própria memória RAM do computador**!
-> 
-> * **O Teu Papel:** És um detetive/hacker a operar um terminal de inspeção de memória.
-> * **A Tua Missão:** Usar o **ponteiro** (`ponteiro_scanner`) como uma "lupa" para inspecionar os endereços hexadecimais da RAM (`0x...`).
-> * **O Desafio Final:** Conseguir alterar o valor de uma variável ultra-secreta (**Tesouro Oculto**) modificando diretamente o seu endereço de memória, demonstrando na prática como os ponteiros funcionam "por baixo do capô" da linguagem C.
+
+ ### 🎯 Qual é o Objetivo Deste Jogo?
+ 
+Neste jogo, não jogas com personagens nem te moves num mapa visual: **o teu campo de jogo é a própria memória RAM do computador**!
+
+ * **O Teu Papel:** És um detetive/hacker a operar um terminal de inspeção de memória.
+ * **A Tua Missão:** Usar o **ponteiro** (`ponteiro_scanner`) como uma "lupa" para inspecionar os endereços hexadecimais da RAM (`0x...`).
+ * **O Desafio Final:** Conseguir alterar o valor de uma variável ultra-secreta (**Tesouro Oculto**) modificando diretamente o seu endereço de memória, demonstrando na prática como os ponteiros funcionam "por baixo do capô" da linguagem C.
 
 ```text
  ┌─────────────────────────────────────────────────────────┐
@@ -29,8 +29,9 @@
 🗝️ Desreferenciação (*): Aceder e modificar o valor dentro de uma variável usando diretamente o seu endereço.
 
 💡 Dicas Importantes
-[!CAUTION]
-Ponteiros Nulos (NULL): Tentar aceder ao valor de um ponteiro que aponta para NULL (ex: *ponteiro_scanner quando este é nulo) provoca um erro chamado Segmentation Fault (Crashe do programa). Garante sempre que o ponteiro tem um endereço válido antes de usar o *!
+
+> [!TIP]
+> Ponteiros Nulos (NULL): Tentar aceder ao valor de um ponteiro que aponta para NULL (ex: *ponteiro_scanner quando este é nulo) provoca um erro chamado Segmentation Fault (Crashe do programa). Garante sempre que o ponteiro tem um endereço válido antes de usar o *!
 
 > [!TIP]
 >
