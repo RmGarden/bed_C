@@ -21,7 +21,7 @@
 
 A linguagem **C** é a base da computação moderna, está no coração dos sistemas operativos, motores de jogos e dispositivos IoT. No entanto, aprender C costuma parecer difícil devido aos conceitos abstratos de memória.
 
-Este curso foi desenhado para mudar isso: **cada conceito teórico é aplicado imediatamente num projeto prático ou mini-jogo**.
+Este repositório foi desenhado para mudar isso: **cada conceito teórico é aplicado imediatamente num projeto prático ou mini-jogo**.
 
 > [!TIP]
 > **Para quem é este repositório?**  
